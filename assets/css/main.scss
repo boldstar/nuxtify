@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import 'contact';
+@import 'portfolio';
+@import 'about';
+@import 'blog';
 @import 'config';
 
 html {
@@ -22,7 +25,10 @@ html {
 
 .body-container {
     min-height: 100vh;
-    padding: 80px;
+}
+
+.section-container {
+    max-width: 1080px;
 }
 
 .navbar {
@@ -68,10 +74,8 @@ html {
 }
   
 .util__container {
-    max-width: 75rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 100%;
+    max-height: 100vh;
+    overflow-y: hidden;
     box-sizing: border-box;
 }

@@ -1,0 +1,30 @@
+.blog {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.blog-overview {
+    margin: 25px;
+
+    h2 {
+        font-size: 1.75rem;
+        font-weight: 600;
+
+        a {
+            text-decoration: none;
+
+            &:hover {
+                color: #007777;
+            }
+        }
+
+    }
+
+    p {
+        margin-top: 10px;
+        font-weight: 400;
+    }
+}
